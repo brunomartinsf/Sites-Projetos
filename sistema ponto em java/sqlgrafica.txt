@@ -1,0 +1,5 @@
+create database graficabd;
+use graficabd;
+create table login (id int primary key auto_increment,usuario varchar(55),senha varchar(55));
+create table funcionarios(id int primary key auto_increment,nomefuncionarios varchar(80),entradamanhapadrao varchar(10),saidamanhapadrao varchar(10),entradatardepadrao varchar(10),saidatardepadrao varchar(10));
+create table cadentradasaida1(ID int primary key auto_increment,Nome varchar(80),Data varchar(15),EntradaManhãPadrão varchar(10),HoraManhãEntrada varchar(10),Obs_ManhãChegada varchar(20),SaidaManhãPadrão varchar(10),HoraManhãSaida varchar(10),Obs_ManhãSaida varchar(20),EntradaTardePadrão varchar(10),HoraTardeEntrada varchar(10),Obs_TardeChegada varchar(20),SaidaTardePadrão varchar(10),HoraTardeSaida varchar(10),Obs_TardeSaida varchar(20));
