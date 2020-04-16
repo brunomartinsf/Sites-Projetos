@@ -1,3 +1,5 @@
 <?php
-	echo "Teste2";
+	echo "Testes2";
+
+	echo "Teste3"
 ?>
